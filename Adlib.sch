@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Adlib-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -35,13 +36,13 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "Reproduction AdLib Sound Card, OPL2, Circa 1990"
 Date ""
 Rev ""
 Comp ""
-Comment1 ""
-Comment2 ""
-Comment3 ""
+Comment1 "Copyright (C) 2017 Eric Schlaepfer"
+Comment2 "See https://creativecommons.org/licenses/by/4.0/"
+Comment3 "This work is licensed under a Creative Commons Attribution 4.0 International License. "
 Comment4 ""
 $EndDescr
 $Comp
@@ -1467,7 +1468,7 @@ F 3 "" H 8400 6150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L POT R14
+L POT-RESCUE-Adlib R14
 U 1 1 57774901
 P 8100 5850
 F 0 "R14" H 8100 5750 50  0000 C CNN
